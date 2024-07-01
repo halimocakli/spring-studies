@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Dependencies -->
+    <bean id="databaseUserProvider" class="org.ioc.loose.DatabaseUserProvider">
+        <property name="id" value="1910206523"/>
+        <property name="name" value="Halim Can"/>
+        <property name="surname" value="Ocaklı"/>
+    </bean>
+
+    <bean id="noSqlDbUserProvider" class="org.ioc.loose.NoSqlDbUserProvider">
+        <property name="id" value="1310206512"/>
+        <property name="name" value="Raziye"/>
+        <property name="surname" value="Dogan"/>
+    </bean>
+
+    <bean id="webServiceDataProvider" class="org.ioc.loose.WebServiceDataProvider">
+        <property name="id" value="1410206532"/>
+        <property name="name" value="Oğuzhan"/>
+        <property name="surname" value="Deniz"/>
+    </bean>
+    <!---->
+
+    <!-- Dependency Constructor Injection-->
+    <bean id="userManagerWithDbUserProvider" class="org.ioc.loose.UserManager">
+        <constructor-arg ref="databaseUserProvider"/>
+    </bean>
+
+    <bean id="userManagerWithNoSqlDbUserProvider" class="org.ioc.loose.UserManager">
+        <constructor-arg ref="noSqlDbUserProvider"/>
+    </bean>
+
+    <bean id="userManagerWithWebServiceDataProvider" class="org.ioc.loose.UserManager">
+        <constructor-arg ref="webServiceDataProvider"/>
+    </bean>
+    <!---->
+</beans>
