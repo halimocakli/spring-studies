@@ -5,19 +5,19 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Dependencies -->
-    <bean id="databaseUserProvider" class="org.ioc.loose.DatabaseUserProvider">
+    <bean id="databaseUserProvider" class="com.example.dependencyInjection.looseCouplingWithConstructorInjection.DatabaseUserProvider">
         <property name="id" value="1910206523"/>
         <property name="name" value="Halim Can"/>
         <property name="surname" value="Ocaklı"/>
     </bean>
 
-    <bean id="noSqlDbUserProvider" class="org.ioc.loose.NoSqlDbUserProvider">
+    <bean id="noSqlDbUserProvider" class="com.example.dependencyInjection.looseCouplingWithConstructorInjection.NoSqlDbUserProvider">
         <property name="id" value="1310206512"/>
         <property name="name" value="Raziye"/>
         <property name="surname" value="Dogan"/>
     </bean>
 
-    <bean id="webServiceDataProvider" class="org.ioc.loose.WebServiceDataProvider">
+    <bean id="webServiceDataProvider" class="com.example.dependencyInjection.looseCouplingWithConstructorInjection.WebServiceDataProvider">
         <property name="id" value="1410206532"/>
         <property name="name" value="Oğuzhan"/>
         <property name="surname" value="Deniz"/>
@@ -25,15 +25,15 @@
     <!---->
 
     <!-- Dependency Constructor Injection-->
-    <bean id="userManagerWithDbUserProvider" class="org.ioc.loose.UserManager">
+    <bean id="userManagerWithDbUserProvider" class="com.example.dependencyInjection.looseCouplingWithConstructorInjection.UserManager">
         <constructor-arg ref="databaseUserProvider"/>
     </bean>
 
-    <bean id="userManagerWithNoSqlDbUserProvider" class="org.ioc.loose.UserManager">
+    <bean id="userManagerWithNoSqlDbUserProvider" class="com.example.dependencyInjection.looseCouplingWithConstructorInjection.UserManager">
         <constructor-arg ref="noSqlDbUserProvider"/>
     </bean>
 
-    <bean id="userManagerWithWebServiceDataProvider" class="org.ioc.loose.UserManager">
+    <bean id="userManagerWithWebServiceDataProvider" class="com.example.dependencyInjection.looseCouplingWithConstructorInjection.UserManager">
         <constructor-arg ref="webServiceDataProvider"/>
     </bean>
     <!---->
