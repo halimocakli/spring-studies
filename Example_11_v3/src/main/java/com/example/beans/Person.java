@@ -6,15 +6,15 @@ import org.springframework.stereotype.Component;
 @Component
 public class Person
 {
-
     private String name = "Lucy";
+    private final Vehicle vehicle;
 
     @Autowired
-    private Vehicle vehicle;
-
-    // Aşağıdaki ifade ile olası bir NoSuchBeanDefinition hatasının önüne geçmiş oluyoruz
-//    @Autowired(required = false)
-//    private Vehicle vehicle;
+    public Person(Vehicle vehicle)
+    {
+        System.out.println("Person bean created by Spring");
+        this.vehicle = vehicle;
+    }
 
     public String getName()
     {
@@ -29,11 +29,6 @@ public class Person
     public Vehicle getVehicle()
     {
         return vehicle;
-    }
-
-    public void setVehicle(Vehicle vehicle)
-    {
-        this.vehicle = vehicle;
     }
 
 }
