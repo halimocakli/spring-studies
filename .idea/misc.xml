@@ -4,42 +4,6 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/Example_1/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring/example2/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_2/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring/example3/pom.xml" />
-        <option value="$PROJECT_DIR$/example3/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_3/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring/example4/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring/example5/pom.xml" />
-        <option value="$PROJECT_DIR$/example4/pom.xml" />
-        <option value="$PROJECT_DIR$/example5/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_5/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_4/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring/example6/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring/example7/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring/example8/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_7/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_6/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_8/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring/example9/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring/example_10/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring/example_11/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring/example_12/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_12/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_10/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_9/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_04/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_09/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_01/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_02/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_03/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_05/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_06/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_07/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_08/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_11/pom.xml" />
-        <option value="$PROJECT_DIR$/Example_11_v1/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>

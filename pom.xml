@@ -7,6 +7,22 @@
     <groupId>com.halim</groupId>
     <artifactId>spring-studies</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Example_01</module>
+        <module>Example_02</module>
+        <module>Example_03</module>
+        <module>Example_04</module>
+        <module>Example_05</module>
+        <module>Example_06</module>
+        <module>Example_07</module>
+        <module>Example_08</module>
+        <module>Example_09</module>
+        <module>Example_10</module>
+        <module>Example_11_v1</module>
+        <module>Example_11_v2</module>
+
+    </modules>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
