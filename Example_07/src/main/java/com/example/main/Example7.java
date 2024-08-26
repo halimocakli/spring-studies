@@ -5,7 +5,6 @@ import com.example.config.ProjectConfig;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.function.Supplier;
 

@@ -4,8 +4,6 @@ import com.example.beans.Vehicle;
 import com.example.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import java.util.Arrays;
-
 public class Example1
 {
     public static void main(String[] args)
@@ -37,7 +35,6 @@ public class Example1
 
         String greetings2 = context.getBean("Greetings2", String.class);
         System.out.println("String value from Spring Context is: " + greetings2);
-
 
     }
 }

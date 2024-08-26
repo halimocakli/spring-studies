@@ -3,7 +3,6 @@ package com.example.config;
 import com.example.beans.Person;
 import com.example.beans.Vehicle;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /*
@@ -13,10 +12,12 @@ methods. So Spring container can process the class and generate Spring Beans
 to be used in the application.
 * */
 @Configuration
-public class ProjectConfig {
+public class ProjectConfig
+{
 
     @Bean
-    public Vehicle vehicle() {
+    public Vehicle vehicle()
+    {
         Vehicle vehicle = new Vehicle();
         vehicle.setName("Toyota");
         return vehicle;
@@ -32,7 +33,8 @@ public class ProjectConfig {
 
     * */
     @Bean
-    public Person person(Vehicle vehicle) {
+    public Person person(Vehicle vehicle)
+    {
         Person person = new Person();
         person.setName("Lucy");
         person.setVehicle(vehicle);

@@ -3,12 +3,12 @@ package com.example.beans;
 public class Vehicle
 {
 
+    private String name;
+
     public Vehicle()
     {
         System.out.println("Vehicle bean created by Spring");
     }
-
-    private String name;
 
     public String getName()
     {

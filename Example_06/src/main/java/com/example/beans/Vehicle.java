@@ -24,7 +24,7 @@ public class Vehicle
     @PostConstruct
     public void initialize()
     {
-return        this.name = "Honda";
+        return this.name = "Honda";
         System.out.println("Vehicle initialized");
     }
 
