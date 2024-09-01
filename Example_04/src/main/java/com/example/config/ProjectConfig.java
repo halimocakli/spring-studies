@@ -1,6 +1,7 @@
 package com.example.config;
 
 import com.example.beans.Vehicle;
+import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
@@ -14,8 +15,6 @@ to be used in the application.
 @Configuration
 public class ProjectConfig
 {
-
-
     /*
     @Bean annotation, which lets Spring know that it needs to call
     this method when it initializes its context and adds the returned
