@@ -1,0 +1,31 @@
+
+~
+java:S1192)"cDefine a constant instead of duplicating this literal "Time took to execute the method : " 3 times.(—±Ó¬üÿÿÿÿ
+l
+java:S1192"WDefine a constant instead of duplicating this literal "method execution start" 3 times.(à¬ôa
+y
+java:S1192#"cDefine a constant instead of duplicating this literal "Vehicle not started to perform the" 3 times.(ÈÍìó
+k
+java:S1192&"UDefine a constant instead of duplicating this literal "method execution end" 3 times.(‘¤¹’
+f
+java:S1192$"KDefine a constant instead of duplicating this literal " operation" 3 times.( ­¤øþÿÿÿÿ
+R
+java:S2629)"7Use the built-in formatting to construct this argument.(—±Ó¬üÿÿÿÿ
+R
+java:S2629>"7Use the built-in formatting to construct this argument.(—±Ó¬üÿÿÿÿ
+R
+java:S2629S"7Use the built-in formatting to construct this argument.(—±Ó¬üÿÿÿÿ
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ
+T
+java:S1854"9Remove this useless assignment to local variable "music".(êÀÜ‡ùÿÿÿÿ
+E
+java:S1481"*Remove this unused "music" local variable.(˜”šŒýÿÿÿÿ
+U
+java:S18544":Remove this useless assignment to local variable "status".(àÀƒúÿÿÿÿÿ
+F
+java:S14811"+Remove this unused "status" local variable.(‘ã¨Ýÿÿÿÿÿ
+O
+java:S1854I":Remove this useless assignment to local variable "status".(¤ÍµB
+F
+java:S1481F"+Remove this unused "status" local variable.(‘ã¨Ýÿÿÿÿÿ

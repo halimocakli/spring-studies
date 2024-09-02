@@ -25,3 +25,17 @@ RExample_19/src/main/java/com/halim/educativeschool/EducativeSchoolApplication.j
 QExample_19/src/main/java/com/halim/educativeschool/controller/HomeController.java,0\9\09722901e0c6485c9b62da2f0000436200d546ab
 `
 0Example_19/.mvn/wrapper/maven-wrapper.properties,1\1\115d0ae217e3501a919fce60c3699b7f02daffd3
+B
+Example_20/pom.xml,8\4\84fa4123d9de43fbdb46c144ef104609a147b80d
+a
+1Example_20/src/main/resources/templates/home.html,f\f\ff5c9cd019b8360e3e82cf0f38e9ad66ca69ea06
+Å
+QExample_20/src/main/java/com/halim/educativeschool/controller/HomeController.java,e\3\e374faa92199aa1fd15779d4aea79648c3fe7fbc
+q
+AExample_20/src/main/resources/static/assets/css/style-starter.css,6\2\62b2491276971b1ba99093843fa7ee73e5fd2b1f
+Ç
+RExample_20/src/main/java/com/halim/educativeschool/EducativeSchoolApplication.java,e\5\e5eb97c898bd115c41536ec5d7294bdf8dd9c195
+x
+HExample_17_v1/src/main/java/com/example/implementation/BoseSpeakers.java,f\b\fba4aed931a7f76b1aaf8e906966ad2df2646c30
+u
+EExample_17_v1/src/main/java/com/example/services/VehicleServices.java,2\6\265d1c03c745842dea08df921c2c608d56bf5933
