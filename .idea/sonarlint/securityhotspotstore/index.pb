@@ -13,3 +13,15 @@ RExample_18/src/main/java/com/halim/educativeschool/EducativeSchoolApplication.j
 QExample_18/src/main/java/com/halim/educativeschool/controller/HomeController.java,f\e\fe80523f43a071e516046fe423864e0acc414b74
 B
 Example_19/HELP.md,0\9\09ca9a3f5b27f2ee80b1e38cb058922805a12f9c
+7
+LICENSE,0\3\0398ccd0f49298b10a3d76a47800d2ebecd49859
+B
+Example_19/pom.xml,8\3\8353a82d3c54d3206dce5fc13e8567daf4b718cc
+d
+4Example_19/src/main/resources/application.properties,5\3\53688f8e24c360042b4363e115ae03a41a1c88b5
+Ç
+RExample_19/src/main/java/com/halim/educativeschool/EducativeSchoolApplication.java,c\e\ceda82f44b98375b14b6942956ecdd12e14cc14d
+Å
+QExample_19/src/main/java/com/halim/educativeschool/controller/HomeController.java,0\9\09722901e0c6485c9b62da2f0000436200d546ab
+`
+0Example_19/.mvn/wrapper/maven-wrapper.properties,1\1\115d0ae217e3501a919fce60c3699b7f02daffd3
