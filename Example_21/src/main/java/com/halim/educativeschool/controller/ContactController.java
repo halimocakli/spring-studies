@@ -28,16 +28,21 @@ public class ContactController
         return "contact.html";
     }
 
-    /*@RequestMapping(value = "/saveMsg",method = POST)
-    public ModelAndView saveMessage(@RequestParam String name, @RequestParam String mobileNum,
-                                    @RequestParam String email, @RequestParam String subject, @RequestParam String message) {
-        log.info("Name : " + name);
-        log.info("Mobile Number : " + mobileNum);
-        log.info("Email Address : " + email);
-        log.info("Subject : " + subject);
-        log.info("Message : " + message);
-        return new ModelAndView("redirect:/contact");
-    }*/
+    // private static Logger log = Logger.getLogger(ContactController.class.getName());
+
+    // @RequestParam anotasyonu, UI uzerindeki bilgi ile backend server arasinda baglanti kurar.
+    // Anotasyonun aldigi parametreler ile UI uzerinden bilgi gonderen deger isimlerinin ayni olmasi gerekiyor.
+    //    @RequestMapping(value = "/saveMsg", method = POST)
+    //    public ModelAndView saveMessage(@RequestParam String name, @RequestParam String mobileNum,
+    //                                    @RequestParam String email, @RequestParam String subject, @RequestParam String message)
+    //    {
+    //        log.info("Name : " + name);
+    //        log.info("Mobile Number : " + mobileNum);
+    //        log.info("Email Address : " + email);
+    //        log.info("Subject : " + subject);
+    //        log.info("Message : " + message);
+    //        return new ModelAndView("redirect:/contact");
+    //    }
 
     @RequestMapping(value = "/saveMsg", method = POST)
     public ModelAndView saveMessage(Contact contact)

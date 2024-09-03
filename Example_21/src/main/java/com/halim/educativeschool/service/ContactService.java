@@ -8,12 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class ContactService
 {
-    /**
-     * Save Contact Details into DB
-     *
-     * @param contact
-     * @return boolean
-     */
+    // Save Contact Details into DB DEMO
     public boolean saveMessageDetails(Contact contact)
     {
         boolean isSaved = true;
