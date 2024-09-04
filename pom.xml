@@ -38,6 +38,8 @@
         <module>Example_23</module>
         <module>Example_24</module>
         <module>Example_25_v1</module>
+        <module>Example_25_v2</module>
+
     </modules>
 
     <properties>
