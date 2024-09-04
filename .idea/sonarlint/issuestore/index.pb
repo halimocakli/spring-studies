@@ -104,3 +104,9 @@ E
 QExample_25_v2/src/main/java/com/halim/educativeschool/service/ContactService.java,e\3\e3b7dc2f8f505dd99cc0c5f5b63a0e60b97aa6c4
 Ö
 UExample_25_v2/src/main/java/com/halim/educativeschool/EducativeSchoolApplication.java,1\1\11f024aa1cf795078feb68b08f46085f85b9bded
+E
+Example_25_v3/pom.xml,7\d\7d8b3e876ed592938612bae3148e8f80b8d55c48
+Å
+QExample_25_v3/src/main/java/com/halim/educativeschool/service/ContactService.java,8\d\8d26f73fe317439077542d266081ec5800845761
+Ö
+UExample_25_v3/src/main/java/com/halim/educativeschool/EducativeSchoolApplication.java,d\2\d22468fa941f9b4c37b52d25ff12a574ac2e347e
