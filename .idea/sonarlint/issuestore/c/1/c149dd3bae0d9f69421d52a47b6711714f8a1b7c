@@ -1,0 +1,9 @@
+
+…
+java:S1192"IDefine a constant instead of duplicating this literal "festival" 4 times.(…ø³ØJ$7b21c32a-b1ec-4340-bca0-a720ca4b589f
+‰
+java:S1192"HDefine a constant instead of duplicating this literal "federal" 4 times.(ÝÚ†¸þÿÿÿÿJ$6de9027f-5486-465b-9c8d-2333cdd0763d
+t
+java:S62044"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(•»«±úÿÿÿÿ8ÀµÝè›2
+s
+java:S1128	"QRemove this unused import 'org.springframework.web.bind.annotation.RequestParam'.(Â¬À·ùÿÿÿÿ8ÃµÝè›2
