@@ -39,3 +39,9 @@ x
 HExample_17_v1/src/main/java/com/example/implementation/BoseSpeakers.java,f\b\fba4aed931a7f76b1aaf8e906966ad2df2646c30
 u
 EExample_17_v1/src/main/java/com/example/services/VehicleServices.java,2\6\265d1c03c745842dea08df921c2c608d56bf5933
+B
+Example_22/pom.xml,e\4\e4f72a8182f42a229dd6ed7d0f51a6a1b63e6109
+…
+UExample_22/src/main/java/com/halim/educativeschool/controller/HolidaysController.java,1\9\1959034eee98269886d266ed1e0a3d1f0b454933
+‚
+RExample_22/src/main/java/com/halim/educativeschool/EducativeSchoolApplication.java,c\5\c51c6fc2d75e79a707630f92a467aec89458189f
