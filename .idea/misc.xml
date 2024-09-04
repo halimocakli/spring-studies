@@ -7,17 +7,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Example_01/pom.xml" />
         <option value="$PROJECT_DIR$/Example_11_v3/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring/example_12/pom.xml" />
         <option value="$PROJECT_DIR$/example_12/pom.xml" />
         <option value="$PROJECT_DIR$/Example_18/pom.xml" />
         <option value="$PROJECT_DIR$/Example_21/pom.xml" />
         <option value="$PROJECT_DIR$/Example_22/pom.xml" />
+        <option value="$PROJECT_DIR$/Example_23/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Example_11_v4/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring/example_12/pom.xml" />
       </set>
     </option>
   </component>
