@@ -10,7 +10,6 @@ import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.ModelAndView;
 
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 
@@ -43,7 +42,7 @@ public class ContactController
         }
         contactService.saveMessageDetails(contact);
         contactService.setCounter(contactService.getCounter() + 1);
-        log.info("Number of times the Contact form is submitted : "+contactService.getCounter());
+        log.info("Number of times the Contact form is submitted : " + contactService.getCounter());
         return "redirect:/contact";
     }
 }

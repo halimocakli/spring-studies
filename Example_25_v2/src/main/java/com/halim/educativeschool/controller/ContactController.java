@@ -38,7 +38,7 @@ public class ContactController
     {
         if (errors.hasErrors())
         {
-            log.error(STR."Contact form validation failed due to: \{errors.toString()}");
+            log.error("Contact form validation failed due to : {}", errors.toString());
             return "contact.html";
         }
         contactService.saveMessageDetails(contact);
