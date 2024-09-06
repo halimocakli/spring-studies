@@ -116,3 +116,7 @@ E
 WExample_27_v1/src/main/java/com/halim/educativeschool/config/ProjectSecurityConfig.java,8\6\8687bbfd0b5d59ea75157eb902fccf0adc00927e
 ‡
 WExample_27_v2/src/main/java/com/halim/educativeschool/config/ProjectSecurityConfig.java,6\b\6b407a2e8709d35de9f0c35eed66ff8c6b3fda6b
+B
+Example_28/pom.xml,3\1\315e1dc9536f0f4ba37d667c7dde07da6499e228
+„
+TExample_28/src/main/java/com/halim/educativeschool/config/ProjectSecurityConfig.java,c\e\cea9b3d15fb6f7ce31a8843ebe7a94c050716ee7
