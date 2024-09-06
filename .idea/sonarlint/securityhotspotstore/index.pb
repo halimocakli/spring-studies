@@ -120,3 +120,9 @@ B
 Example_28/pom.xml,3\1\315e1dc9536f0f4ba37d667c7dde07da6499e228
 „
 TExample_28/src/main/java/com/halim/educativeschool/config/ProjectSecurityConfig.java,c\e\cea9b3d15fb6f7ce31a8843ebe7a94c050716ee7
+B
+Example_29/pom.xml,7\8\7826e6f6e2ee8bd8f1145b834fc710cfda3f0caa
+„
+TExample_29/src/main/java/com/halim/educativeschool/config/ProjectSecurityConfig.java,0\8\08d40d30136f956ca460b45e9023c3c24abd291c
+‚
+RExample_29/src/main/java/com/halim/educativeschool/EducativeSchoolApplication.java,d\2\d2643bd17dcf82f19421cb1a0f14d4924dbd3ee0
