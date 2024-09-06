@@ -106,3 +106,13 @@ B
 Example_26/pom.xml,d\5\d5d46e0a3e0a519812559ae8b96a03910febc221
 ‚
 RExample_26/src/main/java/com/halim/educativeschool/EducativeSchoolApplication.java,b\2\b2677916a275f3ad6a124eeccac9a13ae2ffb2d3
+B
+Example_27/pom.xml,2\5\25a8740e54bb970cc79a79b608ecc37d25a54d1a
+E
+Example_27_v1/pom.xml,a\5\a5d0764931c6ed386cd0bf5a61723f093b759d5b
+E
+Example_27_v2/pom.xml,2\b\2bb34fa2450abafff7c86d5df940545bf860b4aa
+‡
+WExample_27_v1/src/main/java/com/halim/educativeschool/config/ProjectSecurityConfig.java,8\6\8687bbfd0b5d59ea75157eb902fccf0adc00927e
+‡
+WExample_27_v2/src/main/java/com/halim/educativeschool/config/ProjectSecurityConfig.java,6\b\6b407a2e8709d35de9f0c35eed66ff8c6b3fda6b
