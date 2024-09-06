@@ -6,6 +6,8 @@ import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
@@ -19,14 +21,27 @@ public class ProjectSecurityConfig
         // due to CSRF protection. We can disable the same for now and enable it in the coming sections when we started
         // generating CSRF tokens.
         httpSecurity.csrf(csrf -> csrf.disable())
-                .authorizeHttpRequests((requests) -> requests.requestMatchers("/", "/home").permitAll()
+                .authorizeHttpRequests(requests -> requests
+                        .requestMatchers("/", "/home").permitAll()
                         .requestMatchers("holidays/**").permitAll()
                         .requestMatchers("/contact").permitAll()
                         .requestMatchers("/saveMsg").permitAll()
                         .requestMatchers("/courses").permitAll()
                         .requestMatchers("/about").permitAll()
-                        .requestMatchers("/assets/**").permitAll())
-                .formLogin(Customizer.withDefaults())
+                        .requestMatchers("/assets/**").permitAll()
+                        .requestMatchers("/dashboard").authenticated()
+                        .requestMatchers("/login").permitAll())
+
+                .formLogin(loginConfigurer -> loginConfigurer
+                        .loginPage("/login")
+                        .defaultSuccessUrl("/dashboard")
+                        .failureUrl("/login?error=true")
+                        .permitAll())
+
+                .logout(logoutConfigurer -> logoutConfigurer
+                        .logoutSuccessUrl("/login?logout=true")
+                        .invalidateHttpSession(true).permitAll())
+
                 .httpBasic(Customizer.withDefaults());
 
         return httpSecurity.build();
@@ -48,16 +63,23 @@ public class ProjectSecurityConfig
     {
         UserDetails user = User.builder()
                 .username("user")
-                .password("123789")
+                .password(passwordEncoder().encode("123456"))
                 .roles("USER")
                 .build();
 
         UserDetails admin = User.builder()
                 .username("admin")
-                .password("123456")
+                .password(passwordEncoder().encode("123456"))
                 .roles("USER", "ADMIN")
                 .build();
 
         return new InMemoryUserDetailsManager(user, admin);
     }
+
+    @Bean
+    protected PasswordEncoder passwordEncoder()
+    {
+        return new BCryptPasswordEncoder();
+    }
 }
+

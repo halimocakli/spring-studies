@@ -126,3 +126,13 @@ B
 TExample_29/src/main/java/com/halim/educativeschool/config/ProjectSecurityConfig.java,0\8\08d40d30136f956ca460b45e9023c3c24abd291c
 Ç
 RExample_29/src/main/java/com/halim/educativeschool/EducativeSchoolApplication.java,d\2\d2643bd17dcf82f19421cb1a0f14d4924dbd3ee0
+Ü
+VExample_29/src/main/java/com/halim/educativeschool/controller/DashboardController.java,a\b\ab66021c5232c8b5d7d79fa9cd3c727f7ae580af
+Ç
+RExample_29/src/main/java/com/halim/educativeschool/controller/LoginController.java,e\b\eb9e7a4459ea05eddfdb5d1ab69e444cd98aad80
+Ñ
+TExample_29/src/main/java/com/halim/educativeschool/controller/ContactController.java,5\9\59369fc7de55ee204670cba49c8caba9ea56cff3
+Ö
+UExample_29/src/main/java/com/halim/educativeschool/controller/HolidaysController.java,f\1\f1b3729f5583bd733d8c12de78081be82434f76a
+Å
+QExample_29/src/main/java/com/halim/educativeschool/controller/HomeController.java,0\1\01c293d84050c6484315b3de21ff3301f892f0c0
