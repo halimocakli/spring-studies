@@ -38,7 +38,7 @@ public class ContactController
         return "contact.html";
     }
 
-    @PostMapping(value = "/saveMsg")
+    @PostMapping(value = "/saveMessage")
     public String saveMessage(@Valid @ModelAttribute("contact") Contact contact, Errors errors)
     {
         if (errors.hasErrors())

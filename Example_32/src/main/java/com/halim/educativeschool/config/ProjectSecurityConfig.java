@@ -24,7 +24,7 @@ public class ProjectSecurityConfig
         // generating CSRF tokens.
         httpSecurity
                 .csrf(csrf -> csrf
-                        .ignoringRequestMatchers("/saveMsg")
+                        .ignoringRequestMatchers("/saveMessage")
                         .ignoringRequestMatchers("/contact")
                         .ignoringRequestMatchers(PathRequest.toH2Console()))
 
@@ -32,7 +32,7 @@ public class ProjectSecurityConfig
                         .requestMatchers("/", "/home").permitAll()
                         .requestMatchers("holidays/**").permitAll()
                         .requestMatchers("/contact").permitAll()
-                        .requestMatchers("/saveMsg").permitAll()
+                        .requestMatchers("/saveMessage").permitAll()
                         .requestMatchers("/courses").permitAll()
                         .requestMatchers("/about").permitAll()
                         .requestMatchers("/assets/**").permitAll()
