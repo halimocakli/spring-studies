@@ -14,22 +14,24 @@ import java.util.List;
 @Service
 public class ContactService
 {
-    @Autowired
-    private ContactRepository contactRepository;
+    private final ContactRepository contactRepository;
 
-    /**
-     * Save Contact Details into DB
-     *
-     * @param contact
-     * @return boolean
-     */
+    @Autowired
+    public ContactService(ContactRepository contactRepository)
+    {
+        this.contactRepository = contactRepository;
+    }
+
+    // Save Contact Details into DB
     public boolean saveMessageDetails(Contact contact)
     {
         boolean isSaved = false;
+
         contact.setStatus(EducativeSchoolConstants.OPEN);
         contact.setCreatedBy(EducativeSchoolConstants.ANONYMOUS);
         contact.setCreatedAt(LocalDateTime.now());
-        int result = contactRepository.saveContactMsg(contact);
+
+        int result = contactRepository.saveContactMessage(contact);
         if (result > 0)
         {
             isSaved = true;
@@ -37,16 +39,16 @@ public class ContactService
         return isSaved;
     }
 
-    public List<Contact> findMsgsWithOpenStatus()
+    public List<Contact> findMessagesWithOpenStatus()
     {
-        List<Contact> contactMessages = contactRepository.findMsgsWithStatus(EducativeSchoolConstants.OPEN);
+        List<Contact> contactMessages = contactRepository.findMessagesWithStatus(EducativeSchoolConstants.OPEN);
         return contactMessages;
     }
 
-    public boolean updateMsgStatus(int contactId, String updatedBy)
+    public boolean updateMessageStatus(int contactId, String updatedBy)
     {
         boolean isUpdated = false;
-        int result = contactRepository.updateMsgStatus(contactId, EducativeSchoolConstants.CLOSE, updatedBy);
+        int result = contactRepository.updateMessageStatus(contactId, EducativeSchoolConstants.CLOSE, updatedBy);
         if (result > 0)
         {
             isUpdated = true;

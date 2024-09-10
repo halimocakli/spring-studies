@@ -53,7 +53,7 @@ public class ContactController
     @RequestMapping("/displayMessages")
     public ModelAndView displayMessages(Model model)
     {
-        List<Contact> contactMessages = contactService.findMsgsWithOpenStatus();
+        List<Contact> contactMessages = contactService.findMessagesWithOpenStatus();
         ModelAndView modelAndView = new ModelAndView("messages.html");
         modelAndView.addObject("contactMessages", contactMessages);
 
@@ -63,7 +63,7 @@ public class ContactController
     @RequestMapping(value = "/closeMessage", method = GET)
     public String closeMessage(@RequestParam int id, Authentication authentication)
     {
-        contactService.updateMsgStatus(id, authentication.getName());
+        contactService.updateMessageStatus(id, authentication.getName());
         return "redirect:/displayMessages";
     }
 
